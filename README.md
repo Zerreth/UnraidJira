@@ -1,4 +1,4 @@
-> 📚 For more info on all the possible docker variables, please check 🌐 [the official Jira dockerhub page](https://hub.docker.com/r/atlassian/jira-software).
+> 📚 For more info on all the possible docker variables, please 🌐 [Check the official Jira dockerhub page](https://hub.docker.com/r/atlassian/jira-software).
 
 > ⚠️ I highly recommend using PostgreSQL as your DB backend as MariaDB isn't supported and was giving me all sorts of issues with Atlassian software.
 🌐 [View Jira compatibility info](https://confluence.atlassian.com/jseng/supported-platforms-881686453.html) / 
