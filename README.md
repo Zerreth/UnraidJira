@@ -1,3 +1,7 @@
+# Unraid Jira App Template
+
+## Setup Info
+
 > 📚 For more info on all the possible docker variables, please 🌐 [Check the official Jira dockerhub page](https://hub.docker.com/r/atlassian/jira-software).
 
 > ⚠️ I highly recommend using **PostgreSQL** (Postgres11 + PGAdmin4) as your DB backend as **MariaDB isn't supported** and was giving me all sorts of issues with Atlassian software.
@@ -7,6 +11,8 @@
 > ▶️ By default this docker template is setup to access via https proxy (e.g. Letsencrypt) and a domain. Check out this video by Spaceinvader One on Youtube how to set this up:
 
 [![SpaceInvader One Letsencrypt Setup](http://img.youtube.com/vi/I0lhZc25Sro/0.jpg)](http://www.youtube.com/watch?v=I0lhZc25Sro)
+
+## Docker Container Variables
 
 **Jira Home**  
 *Container Path: /var/atlassian/application-data/jira*  
