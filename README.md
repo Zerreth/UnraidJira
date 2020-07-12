@@ -1,5 +1,7 @@
 # Unraid Jira App Template
 
+![App Icon](https://github.com/Zerreth/UnraidJira/raw/master/Jira.png)
+
 ## Setup Info
 
 > 📚 For more info on all the possible docker variables, please 🌐 [Check the official Jira dockerhub page](https://hub.docker.com/r/atlassian/jira-software).
