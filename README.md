@@ -1,5 +1,5 @@
 # Unraid Jira App Template
-![Unraid Logo](https://craftassets.unraid.net/uploads/logos/unraid-stacked-dark.svg)
+![Unraid Logo](https://craftassets.unraid.net/uploads/_1200x630_crop_center-center_82_none/seo-unraid.png)
  ![App Icon](https://github.com/Zerreth/UnraidJira/raw/master/Jira.png)
 
 ## Setup Info
