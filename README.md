@@ -38,7 +38,7 @@ Switch between `http` or `https` for access.
 
 **Proxy Require HTTPS for Login**  
 *Container Variable: ATL_TOMCAT_SECURE*  
-Controls whether non secure is allowed. Setting this to `false` will allow users to login on using insecure connections.
+Controls whether non secure is allowed. Setting this to `false` will allow users to login on using insecure connections.  
 **Default:** `true`  
 
 **Proxy Port**  
