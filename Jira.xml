@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Jira</Name>
+  <Repository>atlassian/jira-software</Repository>
+  <Registry>https://hub.docker.com/r/atlassian/jira-software</Registry>
+  <Network>letsencrypt</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/Zerreth/UnraidJira/raw/master/Jira.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1592184495</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description/>
+  <Networking>
+    <Mode>letsencrypt</Mode>
+    <Publish>
+      <Port>
+        <HostPort>9080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/jira/</HostDir>
+      <ContainerDir>/var/atlassian/application-data/jira</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>please.replace.me</Value>
+      <Name>ATL_PROXY_NAME</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>https</Value>
+      <Name>ATL_TOMCAT_SCHEME</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>true</Value>
+      <Name>ATL_TOMCAT_SECURE</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>443</Value>
+      <Name>ATL_PROXY_PORT</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Jira Home" Target="/var/atlassian/application-data/jira" Default="" Mode="rw" Description="Container Path: /var/atlassian/application-data/jira" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/jira/</Config>
+  <Config Name="Host Port 1" Target="8080" Default="" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="false" Mask="false">9080</Config>
+  <Config Name="Proxy Fully Qualified Hostname" Target="ATL_PROXY_NAME" Default="" Mode="" Description="Container Variable: ATL_PROXY_NAME" Type="Variable" Display="always" Required="false" Mask="false">please.replace.me</Config>
+  <Config Name="Proxy Protocol Scheme" Target="ATL_TOMCAT_SCHEME" Default="" Mode="" Description="Container Variable: ATL_TOMCAT_SCHEME" Type="Variable" Display="always" Required="false" Mask="false">https</Config>
+  <Config Name="Proxy Require HTTPS for Login" Target="ATL_TOMCAT_SECURE" Default="" Mode="" Description="Container Variable: ATL_TOMCAT_SECURE" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="Proxy Port" Target="ATL_PROXY_PORT" Default="" Mode="" Description="Container Variable: ATL_PROXY_PORT" Type="Variable" Display="always" Required="false" Mask="false">443</Config>
+</Container>
