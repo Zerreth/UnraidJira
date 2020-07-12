@@ -1,8 +1,8 @@
-> 📚 For more info on all the possible docker variables, please check [the official Jira dockerhub page](https://hub.docker.com/r/atlassian/jira-software).
+> 📚 For more info on all the possible docker variables, please check 🌐 [the official Jira dockerhub page](https://hub.docker.com/r/atlassian/jira-software).
 
 > ⚠️ I highly recommend using PostgreSQL as your DB backend as MariaDB isn't supported and was giving me all sorts of issues with Atlassian software.
-[View Jira compatibility info](https://confluence.atlassian.com/jseng/supported-platforms-881686453.html) / 
-[View Jira PostgreSQL setup info](https://confluence.atlassian.com/adminjiraserver/connecting-jira-applications-to-postgresql-938846851.html)
+🌐 [View Jira compatibility info](https://confluence.atlassian.com/jseng/supported-platforms-881686453.html) / 
+🌐 [View Jira PostgreSQL setup info](https://confluence.atlassian.com/adminjiraserver/connecting-jira-applications-to-postgresql-938846851.html)
 
 By default this docker template is setup to access via https proxy (e.g. Letsencrypt) and a domain.
 
