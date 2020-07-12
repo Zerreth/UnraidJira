@@ -8,8 +8,8 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project/>
-  <Overview/>
+  <Project>https://hub.docker.com/r/atlassian/jira-software</Project>
+  <Overview>Jira for Unraid<Overview/>
   <Category/>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
@@ -20,9 +20,9 @@
   <DateInstalled>1592184495</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description/>
+  <Description>Jira for Unraid<Description/>
   <Networking>
-    <Mode>letsencrypt</Mode>
+    <Mode></Mode>
     <Publish>
       <Port>
         <HostPort>9080</HostPort>
@@ -62,7 +62,7 @@
   </Environment>
   <Labels/>
   <Config Name="Jira Home" Target="/var/atlassian/application-data/jira" Default="" Mode="rw" Description="Container Path: /var/atlassian/application-data/jira" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/jira/</Config>
-  <Config Name="Host Port 1" Target="8080" Default="" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="false" Mask="false">9080</Config>
+  <Config Name="Jira Port" Target="8080" Default="" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="false" Mask="false">9080</Config>
   <Config Name="Proxy Fully Qualified Hostname" Target="ATL_PROXY_NAME" Default="" Mode="" Description="Container Variable: ATL_PROXY_NAME" Type="Variable" Display="always" Required="false" Mask="false">please.replace.me</Config>
   <Config Name="Proxy Protocol Scheme" Target="ATL_TOMCAT_SCHEME" Default="" Mode="" Description="Container Variable: ATL_TOMCAT_SCHEME" Type="Variable" Display="always" Required="false" Mask="false">https</Config>
   <Config Name="Proxy Require HTTPS for Login" Target="ATL_TOMCAT_SECURE" Default="" Mode="" Description="Container Variable: ATL_TOMCAT_SECURE" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
