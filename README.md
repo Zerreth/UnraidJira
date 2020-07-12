@@ -21,7 +21,7 @@
 This is where Jira stores its appdata.  
 **Default:** `/mnt/user/appdata/jira/`  
 
-**Host Port 1**  
+**Jira Port**  
 *Container Port: 8080*  
 The port used to access Jira's web interface.  
 **Default:** `9080`  
