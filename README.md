@@ -14,22 +14,22 @@ This is where Jira stores its appdata.
 The port used to access Jira's web interface.  
 **Default:** `9080`  
 
-**Proxy Fully Qualified Hostname**
-*Container Variable: ATL_PROXY_NAME*
-The subdomain/domain used to access Jira. This must be specified for HTTPS access to work.
-**Default:** `please.replace.me`
+**Proxy Fully Qualified Hostname**  
+*Container Variable: ATL_PROXY_NAME*  
+The subdomain/domain used to access Jira. This must be specified for HTTPS access to work.  
+**Default:** `please.replace.me`  
 
-**Proxy Protocol Scheme**
-*Container Variable: ATL_TOMCAT_SCHEME*
-Switch between `http` or `https` for access.
-**Default:** `https`
+**Proxy Protocol Scheme**  
+*Container Variable: ATL_TOMCAT_SCHEME*  
+Switch between `http` or `https` for access.  
+**Default:** `https`  
 
-**Proxy Require HTTPS for Login**
-*Container Variable: ATL_TOMCAT_SECURE*
-Controls whether non secure is allowed. Setting this to `false`
-**Default:** `true`
+**Proxy Require HTTPS for Login**  
+*Container Variable: ATL_TOMCAT_SECURE*  
+Controls whether non secure is allowed. Setting this to `false`  
+**Default:** `true`  
 
-**Proxy Port**
-If using something like Letsencrypt (highly recommended) you must specify the proxy port being used here, commonly `443`.
-*Container Variable: ATL_PROXY_PORT*
-**Default:** `443`
+**Proxy Port**  
+If using something like Letsencrypt (highly recommended) you must specify the proxy port being used here, commonly `443`.  
+*Container Variable: ATL_PROXY_PORT*  
+**Default:** `443`  
