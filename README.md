@@ -4,8 +4,7 @@
 🌐 [View Jira compatibility info](https://confluence.atlassian.com/jseng/supported-platforms-881686453.html) / 
 🌐 [View Jira PostgreSQL setup info](https://confluence.atlassian.com/adminjiraserver/connecting-jira-applications-to-postgresql-938846851.html)
 
-> ▶️ **By default this docker template is setup to access via https proxy (e.g. Letsencrypt) and a domain.**
-</br>
+> ▶️ **By default this docker template is setup to access via https proxy (e.g. Letsencrypt) and a domain.** /
 [![SpaceInvader One Letsencrypt Setup](http://img.youtube.com/vi/I0lhZc25Sro/0.jpg)](http://www.youtube.com/watch?v=I0lhZc25Sro)
 
 **Jira Home**  
