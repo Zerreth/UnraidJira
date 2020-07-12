@@ -2,6 +2,8 @@
 
 <img src="https://craftassets.unraid.net/uploads/_1200x630_crop_center-center_82_none/seo-unraid.png" width="700"/> <img src="https://github.com/Zerreth/UnraidJira/raw/master/Jira.png" width="128"/> 
 
+**Unraid Docker Template:** 🌐 [Jira.xml](https://github.com/Zerreth/UnraidJira/blob/master/Jira.xml)
+
 ## Setup Info
 
 > 📚 For more info on all the possible docker variables, please 🌐 [Check the official Jira dockerhub page](https://hub.docker.com/r/atlassian/jira-software).
