@@ -4,15 +4,15 @@
 
 By default this docker template is setup to access via https proxy (e.g. Letsencrypt) and a domain.
 
-**Jira Home**
-*Container Path: /var/atlassian/application-data/jira*
-This is where Jira stores its appdata.
-**Default:** `/mnt/user/appdata/jira/`
+**Jira Home**  
+*Container Path: /var/atlassian/application-data/jira*  
+This is where Jira stores its appdata.  
+**Default:** `/mnt/user/appdata/jira/`  
 
-**Host Port 1**
-*Container Port: 8080*
-The port used to access Jira's web interface.
-**Default:** `9080`
+**Host Port 1**  
+*Container Port: 8080*  
+The port used to access Jira's web interface.  
+**Default:** `9080`  
 
 **Proxy Fully Qualified Hostname**
 *Container Variable: ATL_PROXY_NAME*
