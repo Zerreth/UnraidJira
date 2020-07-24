@@ -10,7 +10,7 @@
   <Support>https://forums.unraid.net/topic/94621-support-zerreth-jira<Support/>
   <Project>https://hub.docker.com/r/atlassian/jira-software</Project>
   <Overview>Jira for Unraid<Overview/>
-  <Category/>
+  <Category/>Cloud: Productivity:<Category/>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/Zerreth/UnraidJira/raw/master/Jira.png</Icon>
