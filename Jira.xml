@@ -3,7 +3,7 @@
   <Name>Jira</Name>
   <Repository>atlassian/jira-software</Repository>
   <Registry>https://hub.docker.com/r/atlassian/jira-software</Registry>
-  <Network>letsencrypt</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
