@@ -18,7 +18,7 @@
 [![SpaceInvader One Letsencrypt Setup](http://img.youtube.com/vi/I0lhZc25Sro/0.jpg)](http://www.youtube.com/watch?v=I0lhZc25Sro)
 
 > 📦 **LetsEncrypt Proxy-Conf Template:** 🌐 [JiraProxy.conf](https://github.com/Zerreth/UnraidJira/blob/master/JiraProxy.conf)  
-\\UNRAIDSERVER\Appdata\letsencrypt\nginx\proxy-confs\MyUnraidJiraProxy.conf **(Example Proxy-Conf location)**
+\\\UNRAIDSERVER\Appdata\letsencrypt\nginx\proxy-confs\MyUnraidJiraProxy.conf **(Example Proxy-Conf location)**
 
 
 ## Docker Container Variables
