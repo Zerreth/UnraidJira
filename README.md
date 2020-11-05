@@ -23,6 +23,8 @@
 
 ## Docker Container Variables
 
+> ⚠️ The official documentation defines the ATL parameters in uppercase, whilst the actual internal xlm defines them in lowercase. Some users have reported that these are case sensitive and only respond to the lowercase values.
+
 **Jira Home**  
 *Container Path: /var/atlassian/application-data/jira*  
 This is where Jira stores its appdata.  
