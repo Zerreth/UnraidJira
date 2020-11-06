@@ -7,10 +7,10 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/94621-support-zerreth-jira<Support/>
+  <Support>https://forums.unraid.net/topic/94621-support-zerreth-jira</Support>
   <Project>https://hub.docker.com/r/atlassian/jira-software</Project>
-  <Overview>Jira for Unraid<Overview/>
-  <Category/>Cloud: Productivity:<Category/>
+  <Overview>Jira for Unraid</Overview>
+  <Category>Cloud: Productivity:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/Zerreth/UnraidJira/raw/master/Jira.png</Icon>
@@ -20,7 +20,7 @@
   <DateInstalled>1592184495</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>Jira for Unraid<Description/>
+  <Description>Jira for Unraid</Description>
   <Networking>
     <Mode></Mode>
     <Publish>
